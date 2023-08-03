@@ -92,6 +92,7 @@ body {
 .title {
   text-align: center;
   padding-block: 2em;
+  font-size: 1.75rem;
 }
 .gallery .nav {
   justify-content: center;
@@ -144,6 +145,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: 2.5rem;
 }
 .quote__author {
   font-family: Spectral;
@@ -208,6 +210,9 @@ body {
 }
 .form-container {
   flex: 2;
+}
+.form-container h2 {
+  font-size: 1.75rem;
 }
 form {
   display: flex;
