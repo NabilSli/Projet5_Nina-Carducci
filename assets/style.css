@@ -38,8 +38,17 @@ body {
   color: #000;
 }
 
+.nav img {
+  width: 100%;
+  height: auto;
+}
 .social-link img {
   width: 20px;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
 }
 
 #about {
@@ -69,6 +78,7 @@ body {
 
 .picture img {
   width: 100%;
+  height: auto;
 }
 #about-me {
   flex: 2;
