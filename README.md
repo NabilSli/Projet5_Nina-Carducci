@@ -1,12 +1,13 @@
 # Projet5_Nina-Carducci
+
 # Portfolio 😃 : Exemple of a professional Photographer's portfolio website.
 
 This website is one of my first debugging and optimisation achievements as a web developer👏. I did it during my boot camp at OpenClassroom's Web developer.
-The objectives where to 
+The objectives where to
 
 # 👁️‍🗨️ Preview
 
-[See the web site](https://dazzling-squirrel-682a44.netlify.app)
+[See the web site](https://nabilsli.github.io/Projet5_Nina-Carducci/)
 
 ## ⭐️ Use the full range of knowledge acquired during the courses.
 
