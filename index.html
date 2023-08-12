@@ -2,10 +2,10 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>Nina Carducci - Photographe à Bordeaux</title>
+    <title>Nina Carducci - Photographe sur Bordeaux</title>
     <meta
       name="description"
-      content="Nina Carducci, photographe. Voir mes traveaux et services ou me contacter"
+      content="Nina Carducci, photographe sur Bordeaux. Voir mes traveaux et services ou me contacter"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
@@ -15,6 +15,39 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
+    />
+
+    <!-- twitter meta tag-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="https://nina-carducci.github.io/" />
+    <meta
+      name="twitter:title"
+      content="Nina Carducci, photographe sur Bordeaux. Voir mes traveaux et services ou me contacter"
+    />
+    <meta
+      name="twitter:description"
+      content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer."
+    />
+    <meta
+      name="twitter:image"
+      content="https://github.com/nina-carducci/nina-carducci.github.io/blob/master/assets/images/nina.png"
+    />
+    <meta name="twitter:image:alt" content="Portrait de Nina Carducci" />
+
+    <!-- Open Graph meta (Facebook, Linkedin) -->
+    <meta
+      property="og:title"
+      content="Nina Carducci, photographe sur Bordeaux. Voir mes traveaux et services ou me contacter"
+    />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer."
+    />
+    <meta property="og:url" content="https://nina-carducci.github.io/" />
+    <meta
+      property="og:image"
+      content="https://github.com/nina-carducci/nina-carducci.github.io/blob/master/assets/images/nina.png"
     />
   </head>
   <body>
@@ -207,7 +240,7 @@
           />
         </div>
       </div>
-      <div class="quote">
+      <div class="quote" itemscope itemtype="https://schema.org/Quotation">
         <figure>
           <blockquote>
             <h3 class="quote__text">
@@ -217,7 +250,9 @@
               Toutes les photos sont exactes. Aucune d’elles n’est la vérité.
             </h3>
           </blockquote>
-          <figcaption class="quote__author">- Richard Avedon</figcaption>
+          <figcaption class="quote__author">
+            <span itemprop="accountablePerson">- Richard Avedon</span>
+          </figcaption>
         </figure>
       </div>
     </section>
@@ -319,5 +354,36 @@
     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+    <!-- Schema.org Markup-->
+    <script type="application/ld+json">
+      {
+        "@context": "http://www.schema.org",
+        "@type": "ProfessionalService",
+        "name": "Nina Carducci",
+        "url": "https://nina-carducci.github.io/",
+        "logo": "https://github.com/nina-carducci/nina-carducci.github.io/blob/master/assets/images/nina.png",
+        "image": "https://github.com/nina-carducci/nina-carducci.github.io/blob/master/assets/images/camera.png",
+        "description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "addressRegion": "Gironde",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "44.8466732",
+          "longitude": "-0.6065805"
+        },
+        "hasMap": "https://www.google.com/maps/place/68+Av.+Alsace+Lorraine,+33200+Bordeaux/data=!4m2!3m1!1s0xd54d803d3494ff1:0x775d19897dd6276f?sa=X&ved=2ahUKEwiggJ7oh9eAAxWqU6QEHXQvAxQQ8gF6BAgVEAA&ved=2ahUKEwiggJ7oh9eAAxWqU6QEHXQvAxQQ8gF6BAgYEAI",
+        "openingHours": "Mo, Tu, We, Th, Fr 10:00-19:00",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+330556677889"
+        }
+      }
+    </script>
   </body>
 </html>
